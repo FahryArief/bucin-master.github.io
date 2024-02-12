@@ -4,14 +4,15 @@ const { host, port } = config;
 
 export default {
   mode: "spa",
-  /*
-   ** Router base for github pages deployment.
-   ** Need Documentation
-  
+
+
   router: {
     base: '/hi-ava/'
   },
-  */
+
+  publicRuntimeConfig: {
+    BASE_URL: '/bucin-master.github.io',
+  },
 
   /*
    ** Headers of the page
